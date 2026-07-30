@@ -2108,8 +2108,14 @@ a:focus {
     letter-spacing: 1px;
 }
 
+.footer .footer-contact p {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
 .footer .footer-contact p i {
     width: 25px;
+    flex-shrink: 0;
 }
 
 .footer .footer-social {
